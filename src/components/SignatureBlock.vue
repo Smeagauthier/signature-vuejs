@@ -1,10 +1,10 @@
 <template>
     <div class="app">
         <div class="panel">
-            <h2>Personnalisez votre signature</h2>
+            <h2>Personnalisez votre signature de mail</h2>
             
             <div class="button-group">
-                <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code html</button>
+                <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code HTML</button>
                 <button @click="copy"><i class="fa-solid fa-scissors"></i> Copier le script</button>
             </div>
             
