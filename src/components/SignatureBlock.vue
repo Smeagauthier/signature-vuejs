@@ -1,13 +1,18 @@
 <template>
     <div class="app">
         <div class="panel">
-            <h2>Personnalisez votre signature de mail avec s</h2>
+            <h2>Personnalisez votre signature</h2>
             
             <div class="button-group">
                 <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code HTML</button>
                 <button @click="copy"><i class="fa-solid fa-scissors"></i> Copier le script</button>
             </div>
             
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" v-model="fullName" placeholder="Entrez votre nom et prénom" />
+            </div>
+
             <div class="input-group">
                 <i class="fa-solid fa-user"></i>
                 <input type="text" v-model="fullName" placeholder="Entrez votre nom et prénom" />
