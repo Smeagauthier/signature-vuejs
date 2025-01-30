@@ -1,7 +1,7 @@
 <template>
     <div class="app">
         <div class="panel">
-            <h2>Personnalisez votre signature de mail</h2>
+            <h2>Personnalisez votre signature de mail avec s</h2>
             
             <div class="button-group">
                 <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code HTML</button>
