@@ -12,11 +12,6 @@
                 <i class="fa-solid fa-user"></i>
                 <input type="text" v-model="fullName" placeholder="Entrez votre nom et prénom" />
             </div>
-
-            <div class="input-group">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" v-model="fullName" placeholder="Entrez votre nom et prénom" />
-            </div>
             
             <div class="input-group">
                 <i class="fa-solid fa-briefcase"></i>
