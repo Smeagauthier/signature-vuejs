@@ -4,7 +4,7 @@
             <h2>Personnalisez votre signature</h2>
             
             <div class="button-group">
-                <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code</button>
+                <button @click="copyHTML"><i class="fa-solid fa-code"></i> Copier le code html</button>
                 <button @click="copy"><i class="fa-solid fa-scissors"></i> Copier le script</button>
             </div>
             
@@ -115,7 +115,7 @@
                 <tr>
                     <td style="border: none; text-align: center;">
                         <div v-if="email" style=" padding: 10px 20px; display: flex; align-items: center; color:grey; text-decoration: none;">
-                            <i class="fas fa-envelope" style="margin-right: 10px; color: orange; margin-top:3px;"></i>
+                            <i class="fas fa-envelope" style="margin-right: 10px; color: orange;"></i>
                             <a href="mailto:rigauxgauthier@gmail.com" title="Envoyer un mail" style="text-decoration:none; color:grey;">{{ email }}</a>
                         </div>
                     </td>
